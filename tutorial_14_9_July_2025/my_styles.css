@@ -1,0 +1,53 @@
+h1 {
+	color: purple;
+}
+
+body {
+	background-color: lightgray;
+}
+
+ol, ul {
+	color:darkred;
+	background-color: aliceblue;
+	font-family: Brush Script MT;
+}
+
+.my-first-class {
+	padding: 10px;
+	margin:20px;
+	width: 30%;
+}
+
+td,th {
+	border:1px solid red;
+	text-align: center;
+	padding: 5px;
+}
+
+.my-table-class {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#table-for-chargers {
+	border-collapse: separate ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
