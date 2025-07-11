@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Skhu: I website yami yokuqala</title>
+		<link rel="icon" type="image/x-icon" href="izithombe/favicon.ico">
+	</head>
+	<body style="background-color:powderblue">
+		<iframe src="navigation_menu.html" width="100%" height="40px" style="border:none;"></iframe>
+		
+		<script>
+			function submitNames(event){
+				event.preventDefault();
+				console.log('I have been clicked, ngipresiwe');
+				const visitorName = document.getElementsByName('enterYourName')[0].value;
+				const showVisitorsName = document.getElementById('igamaLesivakashi');
+				showVisitorsName.innerHTML = visitorName;
+
+				const visitorSurname = document.getElementsByName('sicelaIsibongo')[0].value;
+				const visitorAge = document.getElementsByName('sicelaIminyaka')[0].value;
+				const ubudeBesivakashi = document.getElementsByName('sicelaUbude')[0].value + "m";
+				const shoSizeOfOurVisitor = document.getElementsByName('sicelaUbukhuluBesicathulo')[0].value;
+
+				document.getElementById('isibongoSesivakashi').innerHTML = visitorSurname;
+				document.getElementById('iminyakaYesivakashi').innerHTML = visitorAge;
+				document.getElementById('visitorsHeight').innerHTML = ubudeBesivakashi;
+				document.getElementById('visitosShoeSize').innerHTML = shoSizeOfOurVisitor;
+
+				console.log('The user ifake igama, elithi ' + visitorName);
+			}
+
+		</script>
+		
+		<div>
+			<form onsubmit="submitNames(event)">
+				<input placeholder="Enter your name" name="enterYourName" type="text" />
+				<input placeholder="Enter your surname" name="sicelaIsibongo" type="text" />
+				<button type="submit">Submit your names</button>
+			</form>
+
+			<form onsubmit="submitNames(event)">
+				<input placeholder="Enter your age" name="sicelaIminyaka" type="number" />
+				<input placeholder="Enter yout height" name="sicelaUbude" type="number">
+				<input placeholder="Enter your shoe size" name="sicelaUbukhuluBesicathulo" type="number" />
+				<button type="submit">Thumela eminye imininingwane</button>
+				<!-- <input type="button" placeholder="Thumela eminye imininingwane"  /> -->
+			</form>
+
+			<input placeholder="Enter your age" name="sicelaIminyaka" type="radio" />
+			<input placeholder="Enter yout height" name="sicelaUbude" type="select">
+			<input type="color">
+		
+		</div>
+
+
+
+		<h1>My self</h1>
+
+		<h2>Igama lami ngingu:</h2>
+		<span id="igamaLesivakashi"></span>
+
+		<h3>Isibongo sami:</h3>
+		<span id="isibongoSesivakashi"></span>
+
+		<h4>Iminyaka yami iwu:</h4>
+		<span id="iminyakaYesivakashi"></span>
+
+		<h5>Ubude bami u: </h5>
+		<span id="visitorsHeight"></span>
+
+		<h6>Ngigqoka iscathulo uSize: </h6>
+		<span id="visitosShoeSize"></span>
+
+		<p style="text-align:center;">
+			Yiwoke amagama ami lawa angaphezulu, Umlando wami umi kanje
+
+
+			fkasfnkf fasfmasmfksaf flasmflasfm asmfamsfla lmaslfamsfla lmfaslfma
+
+			sfkasfansfknaks fasfmaskfaksnfkas
+			asnfksanfkasnfasmfasfkas.
+		</p>
+		<hr>
+		<!-- pre element umele i preformatted text -->
+		<pre style="font-family:courier;text-align:center;">Umlando wami sengimdala, nfnewnfnewkwkengew 
+			gwkengkwegkwekgwekg gwengkewg ewkwnegnwegnenw gwekngkewgewgk gwenkgeww wwgwegweg gengkweg gweng 
+			gwengewngkwegwe gwekgwegn gwegwegge egwegwe xhumana no Mnu Sibisi: 0763xxxx.
+		</pre>
+		
+	</body>
+</html>
