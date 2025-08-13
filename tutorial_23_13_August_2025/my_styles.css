@@ -1,0 +1,13 @@
+body {
+	margin: 0px;
+}
+
+.my_div_1 {
+   	background-color: #f2f4f7;
+   	height: 700px;
+   	display: flex;
+}
+
+.my_div_2 {
+	height: 300px;
+}
