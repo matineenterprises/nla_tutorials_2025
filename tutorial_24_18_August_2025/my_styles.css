@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+}
+
+/* i div yami eno facebook o blue */
+.my_div_1 {
+   	background-color: #f2f4f7;
+   	height: 700px;
+   	display: flex;
+}
+
+/* i div yami ezoba namagama esChina */
+.my_div_2 {
+	height: 300px;
+}
+
+/* 
+sebenzisa le class uma ngifuna yonke into
+engaphakathi kwi div ibe phakathi nendawo 
+*/
+.center_div_content {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* istayela esibhekene ne form lami
+kune input yegama, ne input ye password
+ */
+.form_style {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 30vh;
+	background-color: white; /*  */
+	padding: 0 20px; /* 0 space phansi naphezulu, 20 ispace kwaleft nakwa right */
+	border-radius: 10px; /* amakhona ami angaciji */
+}
