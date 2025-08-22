@@ -1,0 +1,102 @@
+body {
+	margin: 0px;
+}
+
+input {
+	padding: 14px 16px; /*faka ispace ngaphakathi kwi input*/
+	border-radius: 5px; /* amakhona ami angaciji */
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddfe2; /* light gray color */
+	font-size: 17px;
+	width: 330px;
+	margin: 6px 0;
+
+}
+
+button {
+	padding: 0 16px;
+	border-radius: 6px; /* amakhona ami angaciji */
+	border-width: 0px;
+	color: white;
+	width: 364px;
+	height: 48px;
+	margin: 6px 0 0;
+	font-size: 17px; /* Adjust the font size */
+	font-weight: bold; /* Makes the text bold */
+
+}
+
+.button_one {
+	background-color: #0866ff;
+}
+
+.button_two {
+	background-color: #42b72a;
+	width: 194.2px;
+}
+
+::placeholder {
+  font-size: 16px; /* Adjust the font size */
+  color: #CCD0D5;
+}
+
+/* i div yami eno facebook o blue */
+.my_div_1 {
+   	background-color: #f2f4f7;
+   	height: 700px;
+   	display: flex;
+   	padding: 0 300px; /* 0 space phansi naphezulu, 20 ispace kwaleft nakwa right */
+}
+
+/* i div yami ezoba namagama esChina */
+.my_div_2 {
+	height: 300px;
+}
+
+/* 
+sebenzisa le class uma ngifuna yonke into
+engaphakathi kwi div ibe phakathi nendawo 
+*/
+.center_div_content {
+	width: 50%;
+	display: flex;
+	justify-content: center; /* ubeka izinto phakathi nendawo horizontal */
+	align-items: center; /* ubeka izinto phakathi nendawo verticaly */
+}
+
+/* istayela esibhekene ne form lami
+kune input yegama, ne input ye password
+ */
+.form_style {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 396px;
+	background-color: #fff; /*  */
+	padding-top: 10px;
+	padding-bottom: 24px;
+	/* padding: 0 20px; 0 space phansi naphezulu, 20 ispace kwaleft nakwa right */
+	border-radius: 10px; /* amakhona ami angaciji */
+	text-align: center; /*ama element a(inline) anjengo span,a,input etc , ababe e center */
+	box-shadow: 0 2px 4px #0000001a,0 8px 16px #0000001a;
+}
+
+/* faka le class kwi parent div uma ufuna amagama(inline items) ezingane abe se center  */
+.text_container_class {
+	text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
